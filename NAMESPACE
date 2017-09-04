@@ -1,0 +1,21 @@
+export(clean.files)
+export(draw.ca)
+export(draw.dca)
+export(draw.nmds)
+export(draw.pca)
+export(draw.pcoa)
+importFrom("grDevices", "bringToTop", "dev.cur", "dev.off",
+             "heat.colors", "savePlot", "windows")
+importFrom("graphics", "legend", "plot", "plot.new", "points", "text")
+importFrom("stats", "cmdscale", "prcomp", "predict", "runif",
+             "weighted.mean", "weights")
+importFrom("utils", "choose.files", "install.packages", "old.packages",
+             "read.table", "setWinProgressBar", "winProgressBar")
+import ("vegan")
+import("BiodiversityR")
+import("mgcv")
+import("tkrgl")
+import("tcltk")
+import("rgl")
+import("geometry")
+import("vegan3d")

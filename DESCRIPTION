@@ -1,0 +1,31 @@
+Package: ordijuice
+Type: Package
+Title: Unconstrained ordinations of vegetation data in JUICE program
+Version: 3.4.0
+Authors@R: c(
+    person("David", "Zeleny", email="zeleny@sci.muni.cz", role="cre"),
+    person("Markus", "Neupert", email="markus.neupert@etu.univ-rouen.fr", role="aut"),
+    person("Lubomir", "Tichy", email="tichy@sci.muni.cz", role="ctb"))
+Author: David Zeleny [aut, cre],
+    Markus Neupert [aut]
+Maintainer: David Zeleny <zeleny@sci.muni.cz>
+Description: ordijuice offers the possibility to use some functionalities 
+    provided by the JUICE software (see: http://www.sci.muni.cz/botany/juice/) 
+    involving R. JUICE is a non-commercial software package for editing and 
+    analysing phytosociological data. ordijuice provides the necessary 
+    functions to link JUICE and R, and to perform ordinations on data from 
+    JUICE in a non-interactive R-session. Therefore, this package is NOT 
+    intended to be used without JUICE, or in an interactive R-session, since 
+    all the data and function-arguments are provided by JUICE.
+Depends: R (>= 3.2.2)
+Encoding: UTF-8
+LazyData: true
+License: GPL-3
+RoxygenNote: 6.0.1
+Imports: vegan,
+    vegan3d,
+    mgcv,
+    tkrgl,
+    rgl,
+    tcltk,
+    geometry
